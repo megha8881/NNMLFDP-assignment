@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
-pickle_in = open("/content/drive/My Drive/decision_model.pkl","rb")
+pickle_in = open("decision_model.pkl","rb")
 model=pickle.load(pickle_in)
 
 def predict_note_authentication(age ,hypertension,heart_disease, avg_glucose_level,bmi,smoking_status):
@@ -23,7 +23,7 @@ def main():
    <div class="" style="background-color:blue;" >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:40px;color:white;margin-top:10px;">OdinSchool</p></center> 
+   <center><p style="font-size:40px;color:white;margin-top:10px;">stroke prediction</p></center> 
    <center><p style="font-size:30px;color:white;margin-top:10px;">Course on streamlit</p></center> 
    <center><p style="font-size:25px;color:white;margin-top:10px;"> Project Deployment</p></center> 
    </div>
